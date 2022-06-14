@@ -1,7 +1,7 @@
 # A project with the aim of using monty bytecode to implement stacks & queues in c.
 
-- Your code will be compiled this way:
-  | gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+-### Your code will be compiled this way:
+     gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 - Any output must be printed on stdout
 - Any error message must be printed on stderr
 
