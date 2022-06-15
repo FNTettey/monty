@@ -14,7 +14,10 @@ void (*get_op_func(line_t line, meta_t *meta))(stack_t **, unsigned int)
 	instruction_t ops[] = {
 		{"push", push},
 		{"pall", pall},
-        {NULL, NULL}
+		{"pint", pint},
+		{"pop", pop},
+		{"swap", swap},
+		{NULL, NULL}
 	};
      if (comment_check(line))
 		 return (nop);

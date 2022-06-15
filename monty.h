@@ -103,6 +103,8 @@ void pall(stack_t **stack, unsigned int nline);
 void free_stack(stack_t **stack);
 void nop(stack_t **stack, unsigned int nline);
 void qpush(stack_t **stack, unsigned int nline);
-
+void pint(stack_t **stack, unsigned int nline);
+void pop(stack_t **stack, unsigned int nline);
+void swap(stack_t **stack, unsigned int nline);
 
 #endif
